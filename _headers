@@ -1,0 +1,15 @@
+# Netlify: slike i videi se pamte u pregledniku godinu dana, stranica se uvijek provjerava
+/slike/*
+  Cache-Control: public, max-age=31536000
+/oasis/*
+  Cache-Control: public, max-age=31536000
+/film/*
+  Cache-Control: public, max-age=31536000
+/*.png
+  Cache-Control: public, max-age=31536000
+/og.jpg
+  Cache-Control: public, max-age=31536000
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+/i18n.js
+  Cache-Control: public, max-age=0, must-revalidate
